@@ -1,9 +1,8 @@
-// Difficulty: Easy
-// Technique used: For loop 
-// Runtime: O(n)
-
-public class Solution {
-    public boolean validMountainArray(int[] arr) {
+public class ValidMountainArray {
+    // Difficulty: Easy
+    // Technique used: For loop 
+    // Runtime: O(n)
+    public static boolean validMountainArray(int[] arr) {
         if( arr.length < 3 ) {
             return false;
         }
@@ -27,4 +26,10 @@ public class Solution {
         }
         return true;
     }
+
+    public static void main( Stirng [] args ) {
+        int[] arr = {1,2,3,2,1};
+        System.out.println( validMountainArray(arr));
+    }
 }
+
