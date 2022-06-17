@@ -1,7 +1,7 @@
+// Difficulty: Easy
+// Technique used: For loop 
+// Runtime: O(n)
 public class ValidMountainArray {
-    // Difficulty: Easy
-    // Technique used: For loop 
-    // Runtime: O(n)
     public static boolean validMountainArray(int[] arr) {
         if( arr.length < 3 ) {
             return false;

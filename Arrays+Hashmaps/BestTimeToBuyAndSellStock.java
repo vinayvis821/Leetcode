@@ -1,3 +1,6 @@
+// Difficulty: Easy
+// Technique used: For loop 
+// Runtime: O(n)
 public class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
         if( prices.length < 2 ) {
